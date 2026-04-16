@@ -11,7 +11,7 @@ const playersFetch = async () => {
 const playersPromise= playersFetch();
 
 function App() {
-  const [coin, setCoin] = useState(0);
+  const [coin, setCoin] = useState(5000000);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [toggle, setToggle] = useState(true);
   const handleCoin = () => {
@@ -37,7 +37,11 @@ function App() {
         selectedPlayers={selectedPlayers}
         setSelectedPlayers={setSelectedPlayers}
         playersPromise={playersPromise}></AvailablePlayers>
-      </Suspense> : <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers> 
+      </Suspense> : <SelectedPlayers 
+      selectedPlayers={selectedPlayers}
+      setSelectedPlayers={setSelectedPlayers}
+      setCoin={setCoin}
+      coin={coin}></SelectedPlayers> 
       }
       
       

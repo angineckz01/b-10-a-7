@@ -5,7 +5,7 @@ const AvailablePlayers = ({playersPromise, coin, setCoin, selectedPlayers, setSe
     const players = use(playersPromise)
     // console.log(players);
     return (
-        <div className='grid gap-3 lg:grid-cols-3 md:grid-cols-2'>
+        <div className='grid gap-5 lg:grid-cols-3 md:grid-cols-2'>
             {
                 players.map(player => <PlayerCard 
                     key={player.id} 

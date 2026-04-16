@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "price": 2400000,
+    "role": "Batsman",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm medium",
+    "img": "https://i.ibb.co.com/5gnPtxZF/1865848-24kohli4.webp"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "price": 2000000,
+    "role": "Batsman",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm off-break",
+    "img": "https://i.ibb.co.com/6xT67L0/AFP-20240530-34-UE7-A9-v1-High-Res-776146379-1717617996.webp"
+  },
+  {
+    "id": 3,
+    "name": "Ben Stokes",
+    "country": "England",
+    "price": 2200000,
+    "role": "All-rounder",
+    "batting-style": "Left-hand bat",
+    "bowling-style": "Right-arm fast-medium",
+    "img": "https://i.ibb.co.com/YFzxspwR/ben-stokes-exposed-tattoos-9kea6o75z2ejky18.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "price": 1800000,
+    "role": "Bowler",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm fast",
+    "img": "https://i.ibb.co.com/SwDTjjft/5487.webp"
+  },
+  {
+    "id": 5,
+    "name": "Jos Buttler",
+    "country": "England",
+    "price": 1900000,
+    "role": "Wicket-keeper Batsman",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm medium",
+    "img": "https://i.ibb.co.com/KcsKNrSM/363478.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "price": 2100000,
+    "role": "All-rounder",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm leg-break googly",
+    "img": "https://i.ibb.co.com/JwL249Y3/0d66530a43aff6d2a7af28c3b298d446.jpg"
+  },
+  {
+    "id": 7,
+    "name": "David Warner",
+    "country": "Australia",
+    "price": 1700000,
+    "role": "Batsman",
+    "batting-style": "Left-hand bat",
+    "bowling-style": "Right-arm off-break",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "price": 2300000,
+    "role": "Bowler",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm fast",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "price": 1600000,
+    "role": "All-rounder",
+    "batting-style": "Left-hand bat",
+    "bowling-style": "Left-arm orthodox",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "price": 1500000,
+    "role": "Wicket-keeper Batsman",
+    "batting-style": "Left-hand bat",
+    "bowling-style": "Right-arm medium",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "price": 1900000,
+    "role": "Bowler",
+    "batting-style": "Left-hand bat",
+    "bowling-style": "Left-arm fast",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Suryakumar Yadav",
+    "country": "India",
+    "price": 1750000,
+    "role": "Batsman",
+    "batting-style": "Right-hand bat",
+    "bowling-style": "Right-arm medium",
+    "img": "https://i.ibb.co.com/cXpJWkWv/Screenshot-2023-01-23-10-09-30-96-a23b203fd3aafc6dcb84e438dda678b6.jpg"
+  }
+]

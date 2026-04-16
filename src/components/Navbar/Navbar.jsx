@@ -20,8 +20,8 @@ const Navbar = ({ coin }) => {
     
   return (
     <div>
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
+      <div className=" flex  items-center justify-between">
+        <div className="">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -49,16 +49,18 @@ const Navbar = ({ coin }) => {
               }
             </ul>
           </div>
-          <a href="/"><img className="w-14 h-14" src={Logo} alt="" /></a>
+          <a href="/"><img className="w-14 hidden md:flex h-14" src={Logo} alt="" /></a>
         </div>
-        <div className="navbar-end hidden lg:flex">
+        <div className=" hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {
                 link
             }
-            <button className="btn btn-primary">{coin} coin 
-                <img className="w-5 h-5" src={Coin} alt="" /></button>
           </ul>
+        </div>
+        <div className="">
+          <button className="btn btn-primary">{coin} coin 
+                <img className="w-5 h-5" src={Coin} alt="" /></button>
         </div>
       </div>
     </div>

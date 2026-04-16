@@ -2,9 +2,7 @@ import { Delete } from 'lucide-react';
 import React from 'react';
 
 const SelectedCard = ({player, selectedPlayers, setSelectedPlayers, setCoin, coin}) => {
-    // console.log(player);
     const handleDelete = (player) => {
-        // console.log(player); 
         const filtered = selectedPlayers.filter(p => p.id !== player.id);
         setSelectedPlayers(filtered);
         setCoin(coin + player.price);

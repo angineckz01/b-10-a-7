@@ -25,8 +25,8 @@ function App() {
       <div className='flex items-center justify-between mt-10 mb-5'>
         <h3 className='text-2xl font-semibold'>{toggle ? 'Available Players' : `Selected Players(${selectedPlayers.length}/6)`}</h3>
         <div className='flex'>
-        <button className={`btn border-r-0 ${toggle && 'bg-[#E7FE29]'} rounded-r-none`} onClick={() => setToggle(true)}>Available</button>
-          <button className={`btn border-l-0 ${!toggle && 'bg-[#E7FE29]'} rounded-l-none`} onClick={() => setToggle(false)}>Selected ({selectedPlayers.length})</button>
+        <button className={`btn btn-sm md:btn-md border-r-0 ${toggle && 'bg-[#E7FE29]'} rounded-r-none`} onClick={() => setToggle(true)}>Available</button>
+          <button className={`btn btn-sm md:btn-md border-l-0 ${!toggle && 'bg-[#E7FE29]'} rounded-l-none`} onClick={() => setToggle(false)}>Selected ({selectedPlayers.length})</button>
         </div>
       </div>
       {

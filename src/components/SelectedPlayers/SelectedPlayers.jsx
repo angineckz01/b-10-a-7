@@ -2,7 +2,6 @@ import React from 'react';
 import SelectedCard from '../SelectedCard/SelectedCard';
 
 const SelectedPlayers = ({selectedPlayers, setSelectedPlayers, setCoin, coin}) => {
-    // console.log(selectedPlayers);
     return (
         <div>
             {

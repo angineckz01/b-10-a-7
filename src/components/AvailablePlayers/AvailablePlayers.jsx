@@ -1,11 +1,20 @@
 import React, { use } from 'react';
+import PlayerCard from '../PlayerCard/PlayerCard';
 
-const AvailablePlayers = ({playersPromise}) => {
+const AvailablePlayers = ({playersPromise, coin, setCoin, selectedPlayers, setSelectedPlayers}) => {
     const players = use(playersPromise)
-    console.log(players);
+    // console.log(players);
     return (
-        <div>
-            
+        <div className='grid gap-3 lg:grid-cols-3 md:grid-cols-2'>
+            {
+                players.map(player => <PlayerCard 
+                    key={player.id} 
+                    coin={coin}
+                    setCoin={setCoin}
+                    selectedPlayers={selectedPlayers}
+                    setSelectedPlayers={setSelectedPlayers}
+                    player={player} />)
+            }
         </div>
     );
 };
